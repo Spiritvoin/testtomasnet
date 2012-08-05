@@ -1,0 +1,102 @@
+/*--- DErek (Zhukov Alexandr) ---*/
+/* reset
+--------------------------------------------------*/
+body,h1,h2,h3,h4,h5,h6,p,form,fieldset { margin:0;padding:0; }
+img { border: 0; }
+
+/* body
+--------------------------------------------------*/
+body { background: url("../images/g.gif");
+       font-family: Tahoma;
+       font-size: 62.5%;   /* Resets 1em to 10px */
+       text-align: left; /* Center for IE 5.x */
+	  
+}
+
+html, body { height:100%;}
+
+.global_all { background: url("../images/g_all.jpg") no-repeat 50% 0%;
+	position:relative; 
+	height:auto !important;
+	height:100%;
+	min-height:100%; 
+ }
+
+.clearing { clear: both; height: 1px; font-size: 1px; }
+
+a { text-decoration:underline }
+a:hover { text-decoration:none }
+
+
+.global { width:994px; margin:0 auto}
+
+/* GlobalTable
+--------------------------------------------------*/
+.t {border: none; border-collapse: collapse; width: 100%}
+.t td {padding: 0px; vertical-align:top}
+/* Head
+--------------------------------------------------*/
+.head { padding:33px 0 30px 40px; overflow:hidden; min-height:1px; }
+*html .head { height:1px; overflow:visible;}
+.head a { color:#ffffff}
+.logo { display:block; width:183px; height:55px; background: url("../images/logo.gif") no-repeat; overflow:hidden; text-indent:-3000em; float:left}
+
+/* Head/Menu
+--------------------------------------------------*/
+.head ul { margin:0px; padding:2px 0 0 242px; list-style:none;}
+.head ul li { float:left; padding:0 10px 0 0; font-size:14px; font-family:Arial, Helvetica, sans-serif;}
+.head ul li a { display:block; cursor:pointer; float:left }
+.head ul li b { font-weight:normal; display:block; height:22px; padding:5px 15px 0 15px; float:left }
+
+.head ul li a:hover { background:#6c7fad url("../images/hm_l.gif") no-repeat;}
+.head ul li a:hover b { background: url("../images/hm_r.gif") no-repeat 100% 0%;}
+
+.head ul .hm_ac a { background:#6c7fad url("../images/hm_l.gif") no-repeat; text-decoration:none}
+.head ul .hm_ac a b { background: url("../images/hm_r.gif") no-repeat 100% 0%;}
+
+/* Autorzation Window
+--------------------------------------------------*/
+.autz_win { background: url("../images/autz_win.gif") repeat-y; margin:0 auto; width:200px; margin-top:145px}
+.autz_win_t { background: url("../images/autz_win_t.gif") no-repeat; }
+.autz_win_t form { background: url("../images/autz_win_b.gif") no-repeat 0% 100%; color:#d2d7e4; font-size:11px; padding:18px 0 14px 14px;}
+.autz_win_t form a { color:#FFF}
+.autz_win_t form h6 { padding:2px 0 12px 0; background: url("../images/aw_h.gif") no-repeat 100% -1px; margin-right:20px; font-size:18px; font-weight:normal;
+ color:#a3d8ff  }
+.autz_win_t form p { padding-bottom:6px}
+.autz_win_t form p input { vertical-align: middle; width:121px; border:1px solid #7cc0f2; background:none; color:#d1d6e2}
+.autz_win_t form .in input { margin-left:9px}
+.autz_win_t form .in1 input { margin-left:2px}
+.autz_win_t form .btn { border:0px; width:124px; height:20px; cursor:pointer; background: url("../images/btn.gif") no-repeat; margin:2px 0 10px 42px }
+.autz_win_t form .reg { margin-right:20px}
+
+/* Left Col
+--------------------------------------------------*/
+.left_col { width:200px; float:left; padding:0 49px 0 33px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#d1d5e1}
+.left_col a {color:#d1d5e1}
+
+/* Left Col/Autoriz
+--------------------------------------------------*/
+.left_col .autz_win { margin-top:0px; font-family:Tahoma; margin-bottom:17px}
+.left_col .autz_win h6 { background: url("../images/aw_ha.gif") no-repeat 100% 0px; padding-bottom:15px}
+.left_col .autz_win p { font-size:11px; color:#d2d8e4}
+.left_col .autz_win p b { color:#ebf2ff; display:block; padding-top:3px}
+.left_col .autz_win .btn { border:0px; width:124px; height:20px; cursor:pointer; background: url("../images/btn1.gif") no-repeat; margin:13px 0 0px 0px }
+
+/* Left Col/Link
+--------------------------------------------------*/
+.l_link { margin:0px; padding:0 0 0 5px ; list-style:none}
+.l_link li { background: url("../images/l_li.gif") no-repeat 0px 5px; padding:0 0 10px 12px  }
+
+/* Center Col
+--------------------------------------------------*/
+.center_col { float:left; width:712px; padding:0 0 0 0 ; color:#d1d5e1; font-size:12px}
+.center_col h1 { font-size:21px; color:#a3d8ff; font-weight:normal; font-family:Arial; padding-bottom:17px}
+.center_col a { color:#d1d5e1; }
+
+/* Center Col/Table
+--------------------------------------------------*/
+.c_tab { border-top:2px solid #6188ba; width:450px}
+.c_tab p { padding-bottom:2px}
+.c_tab table {border: none; border-collapse: collapse; width: 100%}
+.c_tab table td {padding:13px 15px 14px 15px; vertical-align:top; border:1px solid #314f88}
+.c_tab table .ct_td { text-align:right; color:#ebf2ff; width:110px}
